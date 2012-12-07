@@ -1,0 +1,88 @@
+html {
+	background: #EEEEE6;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*header*/
+#header {
+	width: 820px;
+	margin: auto;
+	border: 1px;
+	border-style: solid;
+	border-color: red;
+}
+
+#header h1 {
+	color: #680;
+	float: right;
+	padding-top: 18px;
+}
+
+#header h2 {
+	color: #680;
+	float: left;
+	position: relative;
+	width: 300px;
+	padding: 18px 20px;
+}
+
+#header h1, h2 {
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+#header #nav a {
+	text-decoration: none;
+	color: #333;
+	padding: 3px;
+}
+
+#nav {
+	text-align: right;
+	top: 30px;
+	float: right;
+	clear: right;
+}
+/*header end*/
+
+/*content*/
+#content {
+	width: 820px;
+	margin: auto;
+	overflow: hidden;
+	clear: both;
+	border: 1px;
+	border-color: red;
+	border-style: solid;
+}
+
+#main {
+	width: 540px;
+	float: left;
+	padding-top: 80px;
+}
+
+#article {
+	margin-bottom: 40px;	
+}
+
+#slide {
+	float: right;
+	width: 220px;
+	font-size: 80%;
+	padding-top: 20px;
+}
+/*content end*/
+
+/*footer*/
+#footer {
+	clear: both;
+	font-size: 90%;
+	width: 820px;
+	margin: auto;
+}
