@@ -79,22 +79,50 @@ body {
 	font-size: 1.3em;
 	font-weight: bold;
 	font-family: "Microsoft YaHei", "SimHei";
-	margin-bottom: 15px;
+	margin-bottom: 3px;
+	clear: both;
 }
 
-#title a{
+#title a {
 	text-decoration: none;
 	color: #000;
 }
 
-#title a:hover{
+#title a:hover {
 	color: #680; 
 }
 
+#extra {
+	margin-bottom: 12px;
+}
+
+#extra #timestamp, #commint {
+	float: left;
+	margin-right: 10px;
+	font-family: fantasy;
+	font-size: 0.9em;
+	color: #4f4f4f;
+}
+
+#extra #author {
+	font-size: 0.9em;
+	color: #4f4f4f;
+}
+
 #text {
-	font-family: "Microsoft YaHei", "SimHei";
-	margin-bottom: 30px;
+	font-family: "PT Serif",Georgia,Times,"Times New Roman",serif;
 	line-height: 23px;
+}
+
+.fulltext {
+	float: right;
+	clear: both;
+	margin-bottom: 30px;
+}
+
+.fulltext a{
+	text-decoration: none;
+	color: #969595;
 }
 /*content end*/
 

@@ -18,9 +18,20 @@
 			<div id="main">
 				<div id="article">
 					<div id="title"><a href='xxx'>selenium学习问题三:selenium中click不能触发事件</a></div>
+					<div id="extra">
+						<div id="timestamp">Date: 2012,12,19</div>
+						<div id="commint">Comment: 3</div>
+						<div id="author">Author: mark3139</div>
+					</div>
 					<div id="text">详细描述：某个元素中含有onclick事件，这样，点击这个元素时，将可以触发这个事件，但是在slenium中用click命令不能触发事件。网上很多文说咱们手动用鼠标点击一个元素时，其实不是一个简单的click动作，如果click不管用的话可以试试movedown之类的。不过，换了还有fireEvent之类的都不好使
 						问题解决：最后用js代码来click相关元素，事件能触发。</div>
+					<div class="fulltext"><a href='xxx'>阅读全文</a></div>
 					<div id="title"><a href='xxx'>selenium学习问题四：在selenium中如何使用javascript?</a></div>
+					<div id="extra">
+						<div id="timestamp">Date: 2012,12,19</div>
+						<div id="commint">Comment: 3</div>
+						<div id="author">Author: mark3139</div>
+					</div>
 					<div id="text">在测试过程中，很多时候js的应用会解决很多难题，比如找不到元素，触发不了事件等。那么在selenium中是如何使用javascript的呢？
 						1.在slenium rc中使用javascript
 						在rc中有两个函数可以用来执行js，它们分别是run_script和get_eval，它们最主要的区别就是run_script没有返回值，而get_eval有返回值。
@@ -29,20 +40,33 @@
 						在selenium webdriver中只有一个函数能执行js，就是execute_script.如果需要返回值，则需显示的用return 来返回返回值，否则将不会有返回值。如：
 						url_add =
 					driver.execute_script("return $('#categoryList .manageCategCourse:eq("štr(cate_num)+")').attr('href')")</div>
+					<div class="fulltext"><a href='xxx'>阅读全文</a></div>
 					<div id="title"><a href='xxx'>selenium学习问题七：firefox下slenium webdriver上传文件会报badStatuline的错</a></div>
+					<div id="extra">
+						<div id="timestamp">Date: 2012,12,19</div>
+						<div id="commint">Comment: 3</div>
+						<div id="author">Author: mark3139</div>
+					</div>
 					<div id="text">详细描述：
 						用slenium webdriver上传文件时代码如下：driver.find_element_by_id("fileFieldName-file").send_keys(course_file)
 						偶然发现在firefox下会报badStatuline的错，但是在ie下却没有报过这个错。
 						在搜索的时候，发现在slenium官方网站的社区里，也有几个人出现了这个问题，正在等待开发人员确认
 						问题解决：
 					无意中发现当我在firefox下，上传文件时，传的文件路径中包含中文时，就会报这个错。暂时还不清楚问题的原因是什么。在ie上，文件路径里有中文什么的却是完全没问题的。所以万不得已的解决方法就是自己避免在上传文件路径中用中文。如果你看到这篇文章，知道有什么好方法，请留言。</div>
+					<div class="fulltext"><a href='xxx'>阅读全文</a></div>
 				<div id="title"><a href='xxx'>selenium学习问题二: Link has target '_blank', which is not supported in Selenium!</a></div>
+					<div id="extra">
+						<div id="timestamp">Date: 2012,12,19</div>
+						<div id="commint">Comment: 3</div>
+						<div id="author">Author: mark3139</div>
+					</div>
 					<div id="text">详细描述：如果你要点击的链接代码是这样：
 						那么由于target="_blank",点击这个链接，会打开一个新的窗体。在新窗体中打开对应的href。但是由于slenium不能保证正确找到新打开的窗体，会报这个错。
 						[warn] Link has target '_blank', which is not supported in Selenium! Randomizing target to be: selenium_blank28995
 						这样，在如果需要操作新窗体中的元素的话，slenium报错说找不到元素之类的。关于这个问题的解决办法，有前辈已经总结：
 						http://bbs.51testing.com/thread-206903-1-1.html
 					我觉得其中第一种方法取href再open的方式最简单也最实用。</div>
+					<div class="fulltext"><a href='xxx'>阅读全文</a></div>
 				</div>
 		   	</div>
 			<div id="slide">
