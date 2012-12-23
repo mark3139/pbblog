@@ -7,6 +7,12 @@ body {
 	padding: 0;
 }
 
+ul {
+	list-style: none;
+	padding: 0;
+    margin: 0;
+}
+
 /*header*/
 #header {
 	width: 820px;
@@ -123,6 +129,38 @@ body {
 .fulltext a{
 	text-decoration: none;
 	color: #969595;
+}
+
+#comment {
+	border-top: 1px solid #CCC;
+}
+
+#comment-author {
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+#comment-timestamp {
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+#comment h3 {
+	font-size: 1.17em;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#comment ul {
+	padding-top: 2px;
+}
+
+#comment ul li {
+	border-top: 1px dotted #CCC;
+	padding: 15px 0;
+}
+
+#comment ul li p {
+	margin-bottom: 0;
 }
 /*content end*/
 
