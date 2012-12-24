@@ -81,7 +81,15 @@ ul {
 	padding-top: 20px;
 }
 
-#title {
+#tag_cloud a{
+       color:#668800;
+}
+
+#tag_cloud a:hover{
+       text-decoration:underline;
+}
+
+#title, div sapn  {
 	font-size: 1.3em;
 	font-weight: bold;
 	font-family: "Microsoft YaHei", "SimHei";
