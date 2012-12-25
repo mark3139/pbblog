@@ -89,6 +89,12 @@ ul {
        text-decoration:underline;
 }
 
+#ourdays {
+    background:url("notice.jpg") no-repeat;
+    text-align: center;
+
+}
+
 #title, div sapn  {
 	font-size: 1.3em;
 	font-weight: bold;
