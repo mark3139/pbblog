@@ -95,7 +95,7 @@ ul {
 
 }
 
-#title, div sapn  {
+#title, div span  {
 	font-size: 1.3em;
 	font-weight: bold;
 	font-family: "Microsoft YaHei", "SimHei";
@@ -175,6 +175,30 @@ ul {
 
 #comment ul li p {
 	margin-bottom: 0;
+}
+
+#main h1 {
+	margin-bottom: 20px;
+	border-bottom: 1px dotted #CCC;
+}
+
+.archive time {
+	font-size: 0.7em;
+}
+
+.archive time span {
+	font-weight: normal;
+	color: #778899;
+}
+
+.archive h1 {
+	font-size: 1.5em;
+	font-weight: normal;
+	padding-left: 10px;
+}
+
+.archive a {
+	text-decoration: none;
 }
 /*content end*/
 
